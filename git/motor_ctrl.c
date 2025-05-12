@@ -160,7 +160,7 @@ static void __exit motor_exit(void) {
 }
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("你");
+MODULE_AUTHOR("me");
 MODULE_DESCRIPTION("使用 ioremap 控制 GPIO 的 motor driver");
 
 module_init(motor_init);
